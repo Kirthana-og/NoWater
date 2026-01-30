@@ -1,0 +1,51 @@
+/* Styling the Header */
+.header-section {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling the Main Content */
+.my-biography {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: #333;
+    color: white;
+}
+
+/* Styling the Sidebar */
+.sidebar {
+    background-color: #222;
+    color: #008000;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Styling the Footer */
+.footer-section {
+    background-color: #222;
+    color: #888;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Style the Contact Me */
+.contact-me {
+    background-color: #ff4757;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.contact-me:hover {
+    background-color: #ff6b81;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
